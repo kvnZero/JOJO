@@ -1,0 +1,297 @@
+# Copyright (C) 2024 Abigeater
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: JOJO 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jojo\n"
+"POT-Creation-Date: 2024-10-08 17:57+0800\n"
+"PO-Revision-Date: 2024-10-08 18:02+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: jojo\n"
+
+#. Theme Name of the theme
+msgid "JOJO"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://abigeater.com"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Job Offer Manager - This is a show you company job offers wordpress theme. "
+"It is a simple and clean theme, with a focus on job offers. It is a great "
+"choice for companies that want to showcase their job offers in a "
+"professional and easy-to-use way. And you can show some about company news "
+"in this website, and have some about in localize features, like submit "
+"notify, company inside manage..."
+msgstr ""
+
+#. Author of the theme
+msgid "Abigeater"
+msgstr ""
+
+#: classes/class-jojo-customize.php:30
+msgid "Header &amp; Footer Background Color"
+msgstr "顶部和底部背景颜色"
+
+#: classes/class-jojo-customize.php:50
+msgid "Site Secondary Color"
+msgstr "站点次色调"
+
+#: classes/class-jojo-customize.php:70
+msgid "Site Link Color"
+msgstr "站点链接颜色"
+
+#: classes/class-jojo-customize.php:89
+msgid "Site Link Hover Color"
+msgstr "站点点击后颜色"
+
+#: classes/class-jojo-customize.php:110
+msgid "Hidden Site Header Nav"
+msgstr "隐藏站点顶部导航"
+
+#: classes/class-jojo-customize.php:128
+msgid "Hidden Footer Email Subscribe"
+msgstr "隐藏底部邮箱订阅"
+
+#: classes/class-jojo-customize.php:147
+msgid "Enable Site Language Switch"
+msgstr "启用站点语言切换"
+
+#: classes/class-jojo-customize.php:164
+msgid "Hidden JOJO Design"
+msgstr "隐藏’JOJO Design‘"
+
+#: classes/class-jojo-customize.php:180
+msgid "Footer Text"
+msgstr "底部文本"
+
+#: classes/class-jojo-customize.php:188
+msgid "Front Main Page"
+msgstr "前台主页页面"
+
+#: classes/class-jojo-customize.php:218
+msgid "Cover Image"
+msgstr "封面图片"
+
+#: classes/class-jojo-customize.php:225
+msgid "Cover Title"
+msgstr "封面标题"
+
+#: classes/class-jojo-customize.php:247
+msgid "Cover Title Font Color"
+msgstr "封面标题字体颜色"
+
+#: classes/class-jojo-customize.php:279
+msgid "Social Media"
+msgstr "社交媒体"
+
+#: classes/class-jojo-customize.php:282 footer.php:8
+msgid "X"
+msgstr ""
+
+#: classes/class-jojo-customize.php:283 footer.php:9
+msgid "Wechat"
+msgstr ""
+
+#: classes/class-jojo-customize.php:284 footer.php:10
+msgid "Youtube"
+msgstr ""
+
+#: classes/class-jojo-customize.php:285 footer.php:11
+msgid "Facebook"
+msgstr ""
+
+#: classes/class-jojo-customize.php:286 footer.php:12
+msgid "Instagram"
+msgstr ""
+
+#: classes/class-jojo-customize.php:287 footer.php:13
+msgid "Weibo"
+msgstr ""
+
+#: classes/class-jojo-customize.php:288 footer.php:14
+msgid "Github"
+msgstr ""
+
+#: classes/class-jojo-customize.php:289 footer.php:15
+msgid "QQ"
+msgstr ""
+
+#: classes/class-jojo-customize.php:290 footer.php:16
+msgid "Tiktok"
+msgstr ""
+
+#: classes/class-jojo-customize.php:291 footer.php:17
+msgid "Email"
+msgstr ""
+
+#: classes/class-jojo-customize.php:292 footer.php:18
+msgid "Redbook"
+msgstr ""
+
+#: classes/class-jojo-customize.php:293 footer.php:19
+msgid "Bilibili"
+msgstr ""
+
+#: classes/class-jojo-customize.php:321
+msgid "QRCODE"
+msgstr "二维码"
+
+#: classes/class-jojo-customize.php:331
+msgid "Job Detail Page"
+msgstr "职位详细页面"
+
+#: classes/class-jojo-customize.php:342
+msgid "Job Deliver Detail"
+msgstr "职位投递详细"
+
+#: classes/class-jojo-taxonomy-option.php:10
+msgid "Job Type"
+msgstr "职位类型"
+
+#: classes/class-jojo-taxonomy-option.php:17
+msgid "Job Tag"
+msgstr "职位标签"
+
+#: classes/class-jojo-taxonomy-option.php:24
+msgid "Job Region"
+msgstr "职位地点"
+
+#: classes/class-jojo-taxonomy-option.php:41
+msgid "Name"
+msgstr "名字"
+
+#: classes/class-jojo-taxonomy-option.php:42
+msgid "Label"
+msgstr "标签"
+
+#: classes/class-jojo-taxonomy-option.php:43
+msgid "Type Style"
+msgstr "类型风格"
+
+#: classes/class-jojo-taxonomy-option.php:44
+msgid "Level"
+msgstr "层次"
+
+#: classes/class-jojo-taxonomy-option.php:45
+msgid "Support User Filter"
+msgstr "支持用户过滤"
+
+#: classes/class-jojo-taxonomy-option.php:51
+msgid "Select"
+msgstr "选择框"
+
+#: classes/class-jojo-taxonomy-option.php:52
+msgid "Radio"
+msgstr "单选框"
+
+#: classes/class-jojo-taxonomy-option.php:53
+msgid "Checkbox"
+msgstr "选中框"
+
+#: classes/class-jojo-taxonomy-option.php:60
+msgid "init"
+msgstr "初始化"
+
+#: classes/class-jojo-taxonomy-option.php:70
+msgid "Can not edit this taxonomy name, this is required taxonomy"
+msgstr "无法编辑这个类型名, 这是必要的类型"
+
+#: classes/class-jojo-taxonomy-option.php:83
+msgid "Can not delete this taxonomy, this is requried taxonomy"
+msgstr "无法删除这个类型, 这是必要的类型"
+
+#: classes/class-jojo-taxonomy-option.php:93
+msgid "Name Need use `job_` prefix and with some letters"
+msgstr "名字需要使用`job_`为前缀且后面为字母"
+
+#: classes/class-jojo-taxonomy-option.php:103
+msgid "Name already exists"
+msgstr "名字已经存在"
+
+#: footer.php:35
+msgid "Fllow We on Social Media"
+msgstr "关注我们的社交媒体"
+
+#: footer.php:175
+msgid "Subscribe to our new jobs"
+msgstr "订阅我们新职位"
+
+#: footer.php:176
+msgid "Sometime new and exciting from us"
+msgstr "我们会有新的消息"
+
+#: footer.php:178 footer.php:179
+msgid "Email address"
+msgstr "邮箱地址"
+
+#: footer.php:180
+msgid "Subscribe"
+msgstr "订阅"
+
+#: parts/part-cover.php:43
+msgid "Previous"
+msgstr "上一个"
+
+#: parts/part-cover.php:47
+msgid "Next"
+msgstr "下一个"
+
+#: parts/part-job-list.php:12
+msgid "Search"
+msgstr "搜索"
+
+#: parts/part-job-list.php:37 parts/part-job-list.php:56
+msgid "All"
+msgstr "所有"
+
+#: parts/part-pagination.php:11
+msgid "Previous Page"
+msgstr "上一页"
+
+#: parts/part-pagination.php:23
+msgid "Next Page"
+msgstr "下一页"
+
+#: public/apis.php:8
+msgid ""
+"Default configuration by taxonomy not found, please login in admin page init "
+"config"
+msgstr "没找到默认分类配置，请登陆管理员后台初始化配置"
+
+#: public/apis.php:82
+msgid "No jobs found."
+msgstr "没有找到职位."
+
+#: public/hooks.php:11
+msgid "Job"
+msgstr "职位"
+
+#: public/hooks.php:23
+msgid "Job Taxonomy"
+msgstr "职位类型"
+
+#: public/hooks.php:87
+msgid "Header Menu"
+msgstr "头部菜单"
+
+#: public/hooks.php:88
+msgid "Footer Menu"
+msgstr "底部菜单"
+
+#: single-job.php:36
+msgid "Update Time"
+msgstr "更新时间"
+
+#: single-job.php:53
+msgid "Job Deliver"
+msgstr "职位投递"
