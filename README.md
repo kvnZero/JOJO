@@ -2,5 +2,5 @@
   JOJO
 </h1>
 
-<p align="center">JOJO is a manage company job offer by wordpress theme</p>
+<p align="center">JOJO is wordpress theme, you can enable it manage and show you company job offer</p>
 
