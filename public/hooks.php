@@ -5,10 +5,9 @@ if ( isset( $_GET['wp_lang'] ) ) {
 	setcookie( 'wp_lang', sanitize_text_field( $_GET['wp_lang'] ), 0);
 	$locale = $_GET['wp_lang'];
 }else{
-	$locale = isset($_COOKIE['wp_lang']) ? $_COOKIE['wp_lang'] : 'en_US';
+	$locale = isset($_COOKIE['wp_lang']) ? $_COOKIE['wp_lang'] : get_locale();
 }
 load_theme_textdomain('jojo', get_template_directory() . '/languages');
-
 
 // register post_type
 wpjam_register_post_type('job',	[
