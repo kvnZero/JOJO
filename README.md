@@ -6,7 +6,7 @@
 
 ## How To Install
 
-> suggest create a new website to deploy this system.
+> Tips: Create a new website to deploy this system.
 
 1. Install WordPress and deploy it;
 2. Download "JOJO" theme and "WPJAM Basic" plugin;
@@ -26,9 +26,11 @@ I ready a dockerfile for you, you can use it fast deploy a wordpress system, in 
 
 Now, you can open terminal and run:
 
-> git clone git@github.com:kvnZero/JOJO.git
-> cd JOJO
-> docker build -t jojo:dev .
-> docker run -name jojo -p 8080:80 jojo:dev
+```shell
+git clone git@github.com:kvnZero/JOJO.git
+cd JOJO
+docker build -t jojo:dev .
+docker run -name jojo -p 8080:80 jojo:dev
+```
 
 And you can open http://localhost:8080 to wordpress and install it.
