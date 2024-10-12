@@ -27,10 +27,10 @@ $job_type_icon = $job_type ? wpjam_get_term_thumbnail_url($job_type[0]) : null;
                 <?php
                 array_map(function($tag) {
                   echo '<span>'.$tag->name.'</span>';
-                }, $job_tags);
+                }, $job_tags ?: []);
                 array_map(function($tag) {
                   echo '<span>'.$tag->name.'</span>';
-                }, $job_region);
+                }, $job_region ?: []);
                 ?>
               </div>
             </div>

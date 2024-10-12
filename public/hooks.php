@@ -73,13 +73,14 @@ add_action('wp_enqueue_scripts', function () {
 		wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css', []);
 		wp_enqueue_style('style', get_stylesheet_directory_uri().'/style.css', []);
 
-		//js部分
-		wp_enqueue_script( 'jojo-customize-controls', get_template_directory_uri() . '/assets/js/customize-controls.js', array('customize-controls', 'underscore', 'jquery' ), []);
-		wp_enqueue_script( 'jojo-theme', get_template_directory_uri() . '/assets/js/theme.js', array('jquery' ), []);
 
 		//其他
 		// wp_enqueue_script('main',get_stylesheet_directory_uri() . '/assets/js/main.js', ['jquery'], $ver, true);
 		wp_enqueue_script('bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', []);
+
+		//js部分
+		wp_enqueue_script( 'jojo-customize-controls', get_template_directory_uri() . '/assets/js/customize-controls.js', array('customize-controls', 'underscore', 'jquery' ), []);
+		wp_enqueue_script( 'jojo-theme', get_template_directory_uri() . '/assets/js/theme.js', array('jquery' ), []);
 
 	}	
 });

@@ -11,8 +11,9 @@ add_action('init', function(){
 	include_once get_template_directory().'/classes/class-jojo-customize.php';
 	include_once get_template_directory().'/classes/class-jojo-taxonomy-option.php';
 	include_once get_template_directory().'/public/hooks.php';
+	include_once get_template_directory().'/public/extends.php';
 	include_once get_template_directory().'/public/apis.php';
-
+	
 });
 
 

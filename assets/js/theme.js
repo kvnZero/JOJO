@@ -9,10 +9,11 @@
         }
     }
 
-    let loading_controller = false;
-
     $('document').ready(function() {
-        load_job_list('default', 1)
+
+        if($('#job-list-id_default').length){
+            load_job_list('default', 1)
+        }
 
         $('form[class="form-monitor"]').on('input change', 'input, select', function(event) {
        
@@ -51,7 +52,7 @@
 
     function load_job_list(position = 'default', page = 1)
     {
-        loading()
+        jojo_loading()
         let form_el = $('#job-list-'+position)
         list_query[position].form = $(form_el).serialize()
         list_query[position].page = page
@@ -72,33 +73,35 @@
                 list_query[position]['total'] = $('#job-list-id_'+position+' > .job-list-total').val()
             },
         }).always(function(){
-            loading_end()
+            jojo_loading_end()
         });
     }
 
-    let loading_time = 0;
-
-    function loading()
-    {
-        if(loading_controller){
-            return
-        }
-        loading_controller = true
-        $('.loading').show()
-        loading_time = new Date().getTime()
-        setTimeout(function(){
-            let current_time = loading_time
-            loading_end(current_time)
-        }, 3000)
-    }
-
-    function loading_end(time = 0)
-    {
-        if(time && loading_time != time){
-            return -1
-        }
-        loading_controller = false
-        $('.loading').hide()
-    }
 
 }( jQuery) );
+
+let jojo_loading_time = 0;
+let jojo_loading_controller = false;
+
+function jojo_loading()
+{
+    if(jojo_loading_controller){
+        return
+    }
+    jojo_loading_controller = true
+    jQuery('.loading').addClass('d-flex').removeClass('d-none')
+    jojo_loading_time = new Date().getTime()
+    setTimeout(function(){
+        let current_time = jojo_loading_time
+        jojo_loading_end(current_time)
+    }, 3000)
+}
+
+function jojo_loading_end(time = 0)
+{
+    if(time && jojo_loading_time != time){
+        return -1
+    }
+    jojo_loading_controller = false
+    jQuery('.loading').removeClass('d-flex').addClass('d-none')
+}

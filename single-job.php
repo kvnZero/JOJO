@@ -50,7 +50,7 @@ $job_tags = get_the_terms( get_the_ID(), 'job_tag' );
                 <?php
                 $job_deliver_detail = get_theme_mod( 'job_deliver_detail', '' );
                 $html = '<h4>'.__('Job Deliver', "jojo").'</h4><div class="job-deliver-detail">'.nl2br(esc_html($job_deliver_detail)).'</div>';
-                echo apply_filters('job-side-block', $html,the_post());
+                echo apply_filters('job-side-block', $html, get_the_ID());
                 ?>
             </div>
         </div>
