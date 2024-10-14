@@ -32,7 +32,7 @@
           if($filter['type'] == 'radio') {
             ?>
             <div class="form-check">
-              <input class="form-check-input" type="radio" value="<?php echo $option['key']; ?>" name="<?php echo $filter['name']; ?>" id="radio_<?php echo $filter['name'].'_0'; ?>" checked>
+              <input class="form-check-input" type="radio" value="0" name="<?php echo $filter['name']; ?>" id="radio_<?php echo $filter['name'].'_0'; ?>" checked>
               <label class="form-check-label" for="radio_<?php echo $filter['name'].'_0'; ?>">
                 <?php _e('All', "jojo"); ?>
               </label>
