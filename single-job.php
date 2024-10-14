@@ -10,6 +10,7 @@ get_header();
 $job_region = get_the_terms(get_the_ID(), 'job_region' );
 $job_type = get_the_terms( get_the_ID(), 'job_type' );
 $job_tags = get_the_terms( get_the_ID(), 'job_tag' );
+
 ?>
 <main id="site-content">
     <div class="job-header py-2 py-md-4 d-flex align-items-center border-bottom mb-4">
@@ -21,10 +22,10 @@ $job_tags = get_the_terms( get_the_ID(), 'job_tag' );
                     <?php
                     array_map(function($tag) {
                         echo '<span>'.$tag->name.'</span>';
-                    }, $job_tags);
+                    }, $job_tags ?: []);
                     array_map(function($tag) {
                         echo '<span>'.$tag->name.'</span>';
-                    }, $job_region);
+                    }, $job_region ?: []);
                     ?>
                     </div>
                     <div class="job-excerpt">

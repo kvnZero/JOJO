@@ -55,15 +55,18 @@ class JOJO_Extend extends WPJAM_Option_Model
 	public static function is_active($key)
 	{
 		$all = self::get_setting();
-		foreach($all as $extend => $enable){
-			if(!$enable || $extend != $key){
-				continue;
-			}
-			if(file_exists(get_template_directory().'/extends/'.$extend.'/hooks.php')){
-				return true;
-			}
-		}
-		return false;
+		return $all[$key] ?? false;
+
+		// foreach($all as $extend => $enable){
+		// 	if(!$enable || $extend != $key){
+		// 		continue;
+		// 	}
+		// 	return true;
+		// 	// if(file_exists(get_template_directory().'/extends/'.$extend.'/hooks.php')){
+		// 	// 	return true;
+		// 	// }
+		// }
+		// return false;
 	}
 
 	public static function get_fields($key){
