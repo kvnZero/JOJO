@@ -85,27 +85,23 @@ add_action('wp_enqueue_scripts', function () {
 	}	
 });
 
-
-function register_jojo_menus() {
-	register_nav_menus([
-		'header-menu' => __( 'Header Menu' , "jojo"),
-		'footer-menu' => __( 'Footer Menu' , "jojo"),
-	]);
-}
-add_action( 'init', 'register_jojo_menus' );
+register_nav_menus([
+	'header-menu' => __( 'Header Menu' , "jojo"),
+	'footer-menu' => __( 'Footer Menu' , "jojo"),
+]);
 
 function add_menu_link_class( $attrs, $item, $args ) {
 	if (property_exists($args, 'link_class')) {
-	  $attrs['class'] = $args->link_class;
+		$attrs['class'] = $args->link_class;
 	}
 	return $attrs;
-  }
-  
-  add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
-  function add_menu_list_item_class($classes, $item, $args) {
+}
+
+add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+function add_menu_list_item_class($classes, $item, $args) {
 	if (property_exists($args, 'list_item_class')) {
 		$classes[] = $args->list_item_class;
 	}
 	return $classes;
-  }
-  add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
+}
+add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
