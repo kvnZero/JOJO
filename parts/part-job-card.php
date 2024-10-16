@@ -11,7 +11,7 @@ $job_type_icon = $job_type ? wpjam_get_term_thumbnail_url($job_type[0]) : null;
     <div class="card">
       <div class="card-body">
         <div class="row">
-          <div class="col-3 col-md-1 job-type-icon">
+          <div class="col-3 col-md-1 job-type-icon justify-content-end">
             <img class="job-type-icon" src="<?php echo $job_type_icon ?? ''; ?>">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="100%" fill="currentColor" class="bi bi-keyboard" viewBox="0 0 16 16">
               <path d="M14 5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM2 4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
