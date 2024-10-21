@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JOJO 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jojo\n"
-"POT-Creation-Date: 2024-10-08 17:57+0800\n"
-"PO-Revision-Date: 2024-10-08 18:02+0800\n"
+"POT-Creation-Date: 2024-10-21T10:05:26+00:00\n"
+"PO-Revision-Date: 2024-10-21 18:07+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -130,7 +130,8 @@ msgstr ""
 msgid "Tiktok"
 msgstr ""
 
-#: classes/class-jojo-customize.php:291 footer.php:17
+#: classes/class-jojo-customize.php:291
+#: extends/job-form/includes/class-job-submit-field.php:12 footer.php:17
 msgid "Email"
 msgstr ""
 
@@ -167,6 +168,8 @@ msgid "Job Region"
 msgstr "职位地点"
 
 #: classes/class-jojo-taxonomy-option.php:41
+#: extends/job-form/includes/class-job-submit-field.php:7
+#: extends/job-notify/includes/class-notify.php:60
 msgid "Name"
 msgstr "名字"
 
@@ -187,14 +190,17 @@ msgid "Support User Filter"
 msgstr "支持用户过滤"
 
 #: classes/class-jojo-taxonomy-option.php:51
+#: extends/job-form/includes/class-job-submit-field.php:13
 msgid "Select"
 msgstr "选择框"
 
 #: classes/class-jojo-taxonomy-option.php:52
+#: extends/job-form/includes/class-job-submit-field.php:16
 msgid "Radio"
 msgstr "单选框"
 
 #: classes/class-jojo-taxonomy-option.php:53
+#: extends/job-form/includes/class-job-submit-field.php:15
 msgid "Checkbox"
 msgstr "选中框"
 
@@ -218,6 +224,247 @@ msgstr "名字需要使用`job_`为前缀且后面为字母"
 msgid "Name already exists"
 msgstr "名字已经存在"
 
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:23
+msgid "Job Title"
+msgstr "职位标题"
+
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:24
+#: extends/job-form/includes/class-job-submit-list.php:56
+#: extends/job-notify/includes/class-form-submit-notify.php:50
+msgid "Submitter"
+msgstr "提交者"
+
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:25
+#: extends/job-form/includes/class-job-submit-list.php:58
+msgid "Content"
+msgstr "内容"
+
+#: extends/job-export/hooks.php:24
+#: extends/job-export/includes/class-export-tool.php:48
+msgid "Export"
+msgstr "导出"
+
+#: extends/job-form/hooks.php:25
+#: extends/job-form/includes/class-job-submit.php:56
+msgid "Submit"
+msgstr "提交"
+
+#: extends/job-form/includes/class-job-submit-field.php:8
+msgid "Key"
+msgstr "键"
+
+#: extends/job-form/includes/class-job-submit-field.php:9
+msgid "Type"
+msgstr "类型"
+
+#: extends/job-form/includes/class-job-submit-field.php:10
+msgid "Text"
+msgstr "文本"
+
+#: extends/job-form/includes/class-job-submit-field.php:11
+msgid "File"
+msgstr "文件"
+
+#: extends/job-form/includes/class-job-submit-field.php:14
+msgid "Textarea"
+msgstr "文本域"
+
+#: extends/job-form/includes/class-job-submit-field.php:18
+msgid "Options"
+msgstr "选项"
+
+#: extends/job-form/includes/class-job-submit-field.php:19
+msgid "Required"
+msgstr "必填"
+
+#: extends/job-form/includes/class-job-submit-field.php:20
+msgid "Placeholder"
+msgstr "占位提示"
+
+#: extends/job-form/includes/class-job-submit-field.php:21
+msgid "File Ext"
+msgstr "文件后缀"
+
+#: extends/job-form/includes/class-job-submit-list.php:41
+#: extends/job-notify/includes/class-form-submit-notify.php:35
+#: extends/job-notify/includes/class-notify.php:62 parts/part-job-list.php:37
+#: parts/part-job-list.php:56
+msgid "All"
+msgstr "所有"
+
+#: extends/job-form/includes/class-job-submit-list.php:49
+#: extends/job-notify/includes/class-form-submit-notify.php:43
+#: parts/part-job-list.php:12
+msgid "Search"
+msgstr "搜索"
+
+#: extends/job-form/includes/class-job-submit-list.php:55
+#: extends/job-notify/includes/class-form-submit-notify.php:49
+#: public/hooks.php:14
+msgid "Job"
+msgstr "职位"
+
+#: extends/job-form/includes/class-job-submit-list.php:57
+msgid "Status"
+msgstr "状态"
+
+#: extends/job-form/includes/class-job-submit-list.php:70
+msgid "Nothing enter"
+msgstr "未输入"
+
+#: extends/job-form/includes/class-job-submit-list.php:88
+msgid "Delete"
+msgstr "删除"
+
+#: extends/job-form/includes/class-job-submit.php:74
+msgid "You have submitted recently, please wait for a few minutes"
+msgstr "您提交过于频繁, 请等待几分钟再次提交"
+
+#: extends/job-form/includes/class-job-submit.php:120
+msgid "Submit Success"
+msgstr "提交成功"
+
+#: extends/job-form/includes/class-job-submit.php:124
+msgid "Submit Fail"
+msgstr "提交失败"
+
+#: extends/job-form/includes/class-job-submit.php:132
+msgid "Submit Form"
+msgstr "提交表单"
+
+#: extends/job-form/includes/class-job-submit.php:136
+msgid "Submit List"
+msgstr "提交列表"
+
+#: extends/job-form/includes/class-job-submit.php:141
+msgid "Submit Field"
+msgstr "提交字段"
+
+#: extends/job-form/includes/class-job-submit.php:154
+msgid "Job Deliver「%s」"
+msgstr "职位投递「%s」"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:51
+msgid "Notify Status"
+msgstr "通知状态"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:64
+msgid "Wating exec"
+msgstr "等待处理"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:64
+msgid "Waitng queue"
+msgstr "等待队列"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:78
+#: extends/job-notify/includes/class-notify.php:75
+msgid "Notify"
+msgstr "通知"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:79
+msgid "Exec Notify"
+msgstr "处理通知"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:180
+msgid "Receiver %s not set template"
+msgstr "收信人 %s 未设置模板"
+
+#: extends/job-notify/includes/class-form-submit-notify.php:239
+msgid "Receiver %s send failed"
+msgstr "收信人 %s 发送失败"
+
+#: extends/job-notify/includes/class-notify.php:42
+msgid "Waiting"
+msgstr "等待中"
+
+#: extends/job-notify/includes/class-notify.php:43
+msgid "Success"
+msgstr "成功"
+
+#: extends/job-notify/includes/class-notify.php:44
+msgid "Fail"
+msgstr "失败"
+
+#: extends/job-notify/includes/class-notify.php:61
+msgid "Rule"
+msgstr "规则"
+
+#: extends/job-notify/includes/class-notify.php:63
+msgid "Order First Sucess"
+msgstr "顺序发送首个成功"
+
+#: extends/job-notify/includes/class-notify.php:65
+msgid "Receiver"
+msgstr "收信人"
+
+#: extends/job-notify/includes/class-notify.php:79
+msgid "List"
+msgstr "列表"
+
+#: extends/job-notify/includes/class-notify.php:84
+msgid "Notify Receiver"
+msgstr "通知接收人"
+
+#: extends/job-notify/includes/class-notify.php:90
+msgid "Notify Setting"
+msgstr "通知设置"
+
+#: extends/job-notify/includes/class-notify.php:101
+msgid "Enable"
+msgstr "启用"
+
+#: extends/job-notify/includes/class-notify.php:101
+msgid "When Users submit job auto notify"
+msgstr "当用户提交时自动通知"
+
+#: extends/job-notify/includes/class-notify.php:102
+msgid "Default Receiver"
+msgstr "默认收信人"
+
+#: extends/job-notify/includes/class-notify.php:102
+msgid "If job no separate setting, use this receiver"
+msgstr "如果职位未单独设定，则使用当前收信人"
+
+#: extends/job-notify/includes/class-notify.php:103
+msgid "Global Receiver"
+msgstr "全局收信人"
+
+#: extends/job-notify/includes/class-notify.php:103
+msgid "Every job submit will notify there receivers"
+msgstr "每个职位提交都将通知到这些收信人"
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:11
+msgid "Dingtalk Token"
+msgstr "钉钉Token"
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:12
+msgid "Dingtalk Secret"
+msgstr "钉钉Secret"
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:22
+msgid "dingtalk"
+msgstr "钉钉"
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:9
+msgid "Receiver email"
+msgstr "收件人邮箱"
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:19
+msgid "mail"
+msgstr "邮箱"
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:29
+msgid "New Job Deliver"
+msgstr "新的职位投递"
+
+#: extends/job-notify/includes/platform/class-platform-workweixin.php:11
+msgid "WorkWeixin Key"
+msgstr "企业微信 Key"
+
+#: extends/job-notify/includes/platform/class-platform-workweixin.php:21
+msgid "Work Weixin"
+msgstr "企业微信"
+
 #: footer.php:35
 msgid "Fllow We on Social Media"
 msgstr "关注我们的社交媒体"
@@ -238,6 +485,12 @@ msgstr "邮箱地址"
 msgid "Subscribe"
 msgstr "订阅"
 
+#: functions.php:6
+msgid ""
+"This theme is need \"<a href=\"https://wordpress.org/plugins/wpjam-basic/"
+"\">WPJAM Basic</a>\" Plugin, Please download this plugin and active it."
+msgstr ""
+
 #: parts/part-cover.php:43
 msgid "Previous"
 msgstr "上一个"
@@ -245,14 +498,6 @@ msgstr "上一个"
 #: parts/part-cover.php:47
 msgid "Next"
 msgstr "下一个"
-
-#: parts/part-job-list.php:12
-msgid "Search"
-msgstr "搜索"
-
-#: parts/part-job-list.php:37 parts/part-job-list.php:56
-msgid "All"
-msgstr "所有"
 
 #: parts/part-pagination.php:11
 msgid "Previous Page"
@@ -272,25 +517,25 @@ msgstr "没找到默认分类配置，请登陆管理员后台初始化配置"
 msgid "No jobs found."
 msgstr "没有找到职位."
 
-#: public/hooks.php:11
-msgid "Job"
-msgstr "职位"
+#: public/extends.php:43 public/extends.php:47
+msgid "Extend"
+msgstr "扩展"
 
-#: public/hooks.php:23
+#: public/hooks.php:26
 msgid "Job Taxonomy"
 msgstr "职位类型"
 
-#: public/hooks.php:87
+#: public/hooks.php:89
 msgid "Header Menu"
 msgstr "头部菜单"
 
-#: public/hooks.php:88
+#: public/hooks.php:90
 msgid "Footer Menu"
 msgstr "底部菜单"
 
 #: single-job.php:36
-msgid "Update Time"
-msgstr "更新时间"
+msgid "Publish Time"
+msgstr "发布时间"
 
 #: single-job.php:53
 msgid "Job Deliver"

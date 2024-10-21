@@ -1,18 +1,17 @@
 # Copyright (C) 2024 Abigeater
 # This file is distributed under the .
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: JOJO 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jojo\n"
-"POT-Creation-Date: 2024-10-08 17:57+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"POT-Creation-Date: 2024-10-21T10:05:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: jojo\n"
 
 #. Theme Name of the theme
@@ -88,51 +87,64 @@ msgstr ""
 msgid "Social Media"
 msgstr ""
 
-#: classes/class-jojo-customize.php:282 footer.php:8
+#: classes/class-jojo-customize.php:282
+#: footer.php:8
 msgid "X"
 msgstr ""
 
-#: classes/class-jojo-customize.php:283 footer.php:9
+#: classes/class-jojo-customize.php:283
+#: footer.php:9
 msgid "Wechat"
 msgstr ""
 
-#: classes/class-jojo-customize.php:284 footer.php:10
+#: classes/class-jojo-customize.php:284
+#: footer.php:10
 msgid "Youtube"
 msgstr ""
 
-#: classes/class-jojo-customize.php:285 footer.php:11
+#: classes/class-jojo-customize.php:285
+#: footer.php:11
 msgid "Facebook"
 msgstr ""
 
-#: classes/class-jojo-customize.php:286 footer.php:12
+#: classes/class-jojo-customize.php:286
+#: footer.php:12
 msgid "Instagram"
 msgstr ""
 
-#: classes/class-jojo-customize.php:287 footer.php:13
+#: classes/class-jojo-customize.php:287
+#: footer.php:13
 msgid "Weibo"
 msgstr ""
 
-#: classes/class-jojo-customize.php:288 footer.php:14
+#: classes/class-jojo-customize.php:288
+#: footer.php:14
 msgid "Github"
 msgstr ""
 
-#: classes/class-jojo-customize.php:289 footer.php:15
+#: classes/class-jojo-customize.php:289
+#: footer.php:15
 msgid "QQ"
 msgstr ""
 
-#: classes/class-jojo-customize.php:290 footer.php:16
+#: classes/class-jojo-customize.php:290
+#: footer.php:16
 msgid "Tiktok"
 msgstr ""
 
-#: classes/class-jojo-customize.php:291 footer.php:17
+#: classes/class-jojo-customize.php:291
+#: extends/job-form/includes/class-job-submit-field.php:12
+#: footer.php:17
 msgid "Email"
 msgstr ""
 
-#: classes/class-jojo-customize.php:292 footer.php:18
+#: classes/class-jojo-customize.php:292
+#: footer.php:18
 msgid "Redbook"
 msgstr ""
 
-#: classes/class-jojo-customize.php:293 footer.php:19
+#: classes/class-jojo-customize.php:293
+#: footer.php:19
 msgid "Bilibili"
 msgstr ""
 
@@ -161,6 +173,8 @@ msgid "Job Region"
 msgstr ""
 
 #: classes/class-jojo-taxonomy-option.php:41
+#: extends/job-form/includes/class-job-submit-field.php:7
+#: extends/job-notify/includes/class-notify.php:60
 msgid "Name"
 msgstr ""
 
@@ -181,14 +195,17 @@ msgid "Support User Filter"
 msgstr ""
 
 #: classes/class-jojo-taxonomy-option.php:51
+#: extends/job-form/includes/class-job-submit-field.php:13
 msgid "Select"
 msgstr ""
 
 #: classes/class-jojo-taxonomy-option.php:52
+#: extends/job-form/includes/class-job-submit-field.php:16
 msgid "Radio"
 msgstr ""
 
 #: classes/class-jojo-taxonomy-option.php:53
+#: extends/job-form/includes/class-job-submit-field.php:15
 msgid "Checkbox"
 msgstr ""
 
@@ -212,6 +229,248 @@ msgstr ""
 msgid "Name already exists"
 msgstr ""
 
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:23
+msgid "Job Title"
+msgstr ""
+
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:24
+#: extends/job-form/includes/class-job-submit-list.php:56
+#: extends/job-notify/includes/class-form-submit-notify.php:50
+msgid "Submitter"
+msgstr ""
+
+#: extends/job-export/export-tool/export-process/class-export-resume-process.php:25
+#: extends/job-form/includes/class-job-submit-list.php:58
+msgid "Content"
+msgstr ""
+
+#: extends/job-export/hooks.php:24
+#: extends/job-export/includes/class-export-tool.php:48
+msgid "Export"
+msgstr ""
+
+#: extends/job-form/hooks.php:25
+#: extends/job-form/includes/class-job-submit.php:56
+msgid "Submit"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:8
+msgid "Key"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:9
+msgid "Type"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:10
+msgid "Text"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:11
+msgid "File"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:14
+msgid "Textarea"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:18
+msgid "Options"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:19
+msgid "Required"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:20
+msgid "Placeholder"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-field.php:21
+msgid "File Ext"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:41
+#: extends/job-notify/includes/class-form-submit-notify.php:35
+#: extends/job-notify/includes/class-notify.php:62
+#: parts/part-job-list.php:37
+#: parts/part-job-list.php:56
+msgid "All"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:49
+#: extends/job-notify/includes/class-form-submit-notify.php:43
+#: parts/part-job-list.php:12
+msgid "Search"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:55
+#: extends/job-notify/includes/class-form-submit-notify.php:49
+#: public/hooks.php:14
+msgid "Job"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:57
+msgid "Status"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:70
+msgid "Nothing enter"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit-list.php:88
+msgid "Delete"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:74
+msgid "You have submitted recently, please wait for a few minutes"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:120
+msgid "Submit Success"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:124
+msgid "Submit Fail"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:132
+msgid "Submit Form"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:136
+msgid "Submit List"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:141
+msgid "Submit Field"
+msgstr ""
+
+#: extends/job-form/includes/class-job-submit.php:154
+msgid "Job Deliver「%s」"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:51
+msgid "Notify Status"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:64
+msgid "Wating exec"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:64
+msgid "Waitng queue"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:78
+#: extends/job-notify/includes/class-notify.php:75
+msgid "Notify"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:79
+msgid "Exec Notify"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:180
+msgid "Receiver %s not set template"
+msgstr ""
+
+#: extends/job-notify/includes/class-form-submit-notify.php:239
+msgid "Receiver %s send failed"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:42
+msgid "Waiting"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:43
+msgid "Success"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:44
+msgid "Fail"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:61
+msgid "Rule"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:63
+msgid "Order First Sucess"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:65
+msgid "Receiver"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:79
+msgid "List"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:84
+msgid "Notify Receiver"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:90
+msgid "Notify Setting"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:101
+msgid "Enable"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:101
+msgid "When Users submit job auto notify"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:102
+msgid "Default Receiver"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:102
+msgid "If job no separate setting, use this receiver"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:103
+msgid "Global Receiver"
+msgstr ""
+
+#: extends/job-notify/includes/class-notify.php:103
+msgid "Every job submit will notify there receivers"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:11
+msgid "Dingtalk Token"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:12
+msgid "Dingtalk Secret"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-dingtalk.php:22
+msgid "dingtalk"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:9
+msgid "Receiver email"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:19
+msgid "mail"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-mail.php:29
+msgid "New Job Deliver"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-workweixin.php:11
+msgid "WorkWeixin Key"
+msgstr ""
+
+#: extends/job-notify/includes/platform/class-platform-workweixin.php:21
+msgid "Work Weixin"
+msgstr ""
+
 #: footer.php:35
 msgid "Fllow We on Social Media"
 msgstr ""
@@ -224,12 +483,17 @@ msgstr ""
 msgid "Sometime new and exciting from us"
 msgstr ""
 
-#: footer.php:178 footer.php:179
+#: footer.php:178
+#: footer.php:179
 msgid "Email address"
 msgstr ""
 
 #: footer.php:180
 msgid "Subscribe"
+msgstr ""
+
+#: functions.php:6
+msgid "This theme is need \"<a href=\"https://wordpress.org/plugins/wpjam-basic/\">WPJAM Basic</a>\" Plugin, Please download this plugin and active it."
 msgstr ""
 
 #: parts/part-cover.php:43
@@ -238,14 +502,6 @@ msgstr ""
 
 #: parts/part-cover.php:47
 msgid "Next"
-msgstr ""
-
-#: parts/part-job-list.php:12
-msgid "Search"
-msgstr ""
-
-#: parts/part-job-list.php:37 parts/part-job-list.php:56
-msgid "All"
 msgstr ""
 
 #: parts/part-pagination.php:11
@@ -264,24 +520,25 @@ msgstr ""
 msgid "No jobs found."
 msgstr ""
 
-#: public/hooks.php:11
-msgid "Job"
+#: public/extends.php:43
+#: public/extends.php:47
+msgid "Extend"
 msgstr ""
 
-#: public/hooks.php:23
+#: public/hooks.php:26
 msgid "Job Taxonomy"
 msgstr ""
 
-#: public/hooks.php:87
+#: public/hooks.php:89
 msgid "Header Menu"
 msgstr ""
 
-#: public/hooks.php:88
+#: public/hooks.php:90
 msgid "Footer Menu"
 msgstr ""
 
 #: single-job.php:36
-msgid "Update Time"
+msgid "Publish Time"
 msgstr ""
 
 #: single-job.php:53
