@@ -7,6 +7,10 @@ Version: 1.0
 Author: Abigeater
 Author URI: https://abigeater.com
 */
+h1 > a {
+    color: unset !important;
+    text-decoration: none !important;
+}
 .loading{
     display: none;
 }
