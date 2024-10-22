@@ -100,9 +100,9 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 140px;
     justify-content: center;
     background-size:100% 100%;
 }
@@ -110,7 +110,7 @@ a {
 .cover > h1 {
     font-weight: 600;
     font-style: normal;
-    font-size: calc(clamp(0px,(100vw - 400px) /(1200 - 400), 1px)*(72 - 40) + 40px);
+    font-size: calc(clamp(0px,(100vw - 400px) /(1200 - 400), 1px)*(100 - 40) + 40px);
 }
 .loading {
     height: 100vh;
