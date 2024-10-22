@@ -18,6 +18,9 @@ h1 > a {
     height: 60px;
     width: 180px;
 }
+.site-content {
+    min-height: 60vh;
+}
 .header {
     width: 90%;
     height: 80px;
@@ -106,7 +109,6 @@ a {
     justify-content: center;
     background-size:100% 100%;
 }
-
 .cover > h1 {
     font-weight: 600;
     font-style: normal;
