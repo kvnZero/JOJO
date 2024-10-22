@@ -35,7 +35,7 @@
                     </a>
                     <?php
                 } else {
-                    echo '<h1><a href="'.home_url().'">' . get_bloginfo('name') . '</a></h1>';
+                    echo '<a href="'.home_url().'">' . get_bloginfo('name') . '</a>';
                 }
                 ?>
                 

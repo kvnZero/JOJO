@@ -7,7 +7,7 @@ Version: 1.0
 Author: Abigeater
 Author URI: https://abigeater.com
 */
-h1 > a {
+.container-fluid > a {
     color: unset !important;
     text-decoration: none !important;
 }
