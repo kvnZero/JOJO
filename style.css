@@ -129,12 +129,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.loading > svg {
-    transform: translate(-50%, -50%);
-    animation: rotate 10s linear infinite;
-    width: 100px;
-    height: 100px;
-}
+
 .no-job-tips {
     text-align: center;
     font-size: 20px;
