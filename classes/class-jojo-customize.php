@@ -342,6 +342,36 @@ class JOJO_Customize {
             'label' => __('Job Deliver Detail', "jojo"),
             'section' => 'job_detail_page',
         ]);
+
+        $wp_customize->add_setting(
+            'show_related_job',
+            array(
+                'default'           => false,
+                'sanitize_callback' => fn($checked) => ( ( isset( $checked ) && true === $checked ) ? true : false ),
+            )
+        );
+
+        $wp_customize->add_control(
+            'show_related_job',
+            array(
+                'type'    => 'checkbox',
+                'section' => 'job_detail_page',
+                'label'   => esc_html__( 'Show Related Job' , "jojo"),
+            )
+        );
+
+        $wp_customize->add_setting(
+            'show_related_job_number',
+            [
+                'default'           => 3,
+                'transport'         => 'postMessage',
+            ]
+        );
+        $wp_customize->add_control('show_related_job_number', [
+            'type' => 'number',
+            'label' => __('Show Related Job Number', "jojo"),
+            'section' => 'job_detail_page',
+        ]);
         
     }
 }

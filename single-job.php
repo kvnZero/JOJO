@@ -55,6 +55,23 @@ $job_tags = get_the_terms( get_the_ID(), 'job_tag' );
                 ?>
             </div>
         </div>
+        <?php
+		$show_related_job = get_theme_mod( 'show_related_job', false );
+		$show_related_job_number = get_theme_mod( 'show_related_job_number', 3 );
+		if($show_related_job){
+			$related_query =  wpjam_get_related_posts_query($show_related_job_number);
+            if($related_query->have_posts()){
+                ?>
+                <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><?php _e("Related Job", 'jojo');?></font></font></h2>
+                <?php
+				while( $related_query->have_posts() ) {
+					$related_query->the_post();
+					get_template_part('parts/part', 'job-card');
+				}
+            }
+			wp_reset_postdata();
+		}
+		?>
     </div>
 </main>
 <?php
