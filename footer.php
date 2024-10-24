@@ -170,18 +170,9 @@ foreach([
 
         <div class="col-md-5 offset-md-1 mb-3">
           <?php
-              $hidden_footer_email_subscribe = get_theme_mod( 'hidden_footer_email_subscribe', false );
-
+              $html = '';
+              echo apply_filters('jojo_site_footer_side_block', $html);
           ?>
-          <form style="display: <?php echo $hidden_footer_email_subscribe ? 'none' : 'block'; ?>">
-            <h5><?php _e('Subscribe to our new jobs', "jojo"); ?></h5>
-            <p><?php _e('Sometime new and exciting from us', "jojo"); ?></p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="subscribe_email" class="visually-hidden"><?php _e("Email address", "jojo"); ?></label>
-              <input id="subscribe_email" type="text" class="form-control" placeholder="<?php _e("Email address", "jojo"); ?>">
-              <button class="btn btn-primary" type="button"><?php _e("Subscribe", "jojo"); ?></button>
-            </div>
-          </form>
         </div>
       </div>
 
