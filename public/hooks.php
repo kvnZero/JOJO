@@ -19,7 +19,7 @@ wpjam_register_post_type('job',	[
 	'has_archive'			=> false,
 	'query_var'				=> false,
 	'rewrite'				=> false,
-	'model'					=> 'WPJAM_Job',
+	'model'					=> JOJO_Job::class,
 ]);
 
 wpjam_add_menu_page('job_taxonomy', [

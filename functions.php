@@ -8,6 +8,7 @@ add_action('init', function(){
 		return;
 	}
 
+	include_once get_template_directory().'/classes/class-jojo-job.php';
 	include_once get_template_directory().'/classes/class-jojo-customize.php';
 	include_once get_template_directory().'/classes/class-jojo-taxonomy-option.php';
 	include_once get_template_directory().'/public/hooks.php';

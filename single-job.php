@@ -33,7 +33,7 @@ $job_tags = get_the_terms( get_the_ID(), 'job_tag' );
                     </div>
                 </div>
                 <div class="col-12 col-md-4 d-flex flex-column">
-                    <span class="job-side-text"><?php echo __("Publish Time", "jojo") . ':&emsp;'. get_the_date( "Y-m-d");?></span>
+                    <span class="job-side-text"><?php echo __("Update Time", "jojo") . ':&emsp;'. get_the_date( "Y-m-d");?></span>
                 </div>
             </div>
         </div>
