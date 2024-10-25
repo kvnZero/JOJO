@@ -151,7 +151,7 @@ foreach([
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-8 mb-3">
           <?php
               echo '<h6 class="mb-4">'.wp_get_nav_menu_name( 'footer-menu' ).'</h6>';
               wp_nav_menu(
@@ -168,7 +168,7 @@ foreach([
           
         </div>
 
-        <div class="col-md-5 offset-md-1 mb-3">
+        <div class="col-md-3 offset-md-1 mb-3">
           <?php
               $html = '';
               echo apply_filters('jojo_site_footer_side_block', $html);
