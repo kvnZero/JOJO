@@ -23,14 +23,19 @@ class JOJO_Extend extends WPJAM_Option_Model
 		return $extend_info;
 	}
 
-	public static function load()
+	public static function load($single_extend = '')
 	{
+		static $enable_extend = [];
 		$all = self::get_setting();
 		foreach($all as $extend => $enable){
-			if(!$enable){
+			if(!$enable || in_array($extend, $enable_extend)){
+				continue;
+			}
+			if($single_extend && $extend != $single_extend){
 				continue;
 			}
 			if(file_exists(get_template_directory().'/extends/'.$extend.'/hooks.php')){
+				$enable_extend[] = $extend;
 				include get_template_directory().'/extends/'.$extend.'/hooks.php';
 			}
 		}
@@ -92,6 +97,20 @@ add_action('admin_menu', function() {
 	//remove this basic auto register menu
 	remove_submenu_page('edit.php?post_type=job', 'job-submissions');
 }, 99);
+
+add_action('update_option_jojo_extend', function($old_value, $new_value){
+	foreach($new_value as $extend => $enable){
+		if($enable && $old_value[$extend] == false){
+			
+			JOJO_Extend::load($extend);
+
+			do_action('jojo_extend_update_'.$extend, true);
+		}
+		if($enable == false && $old_value[$extend]){
+			do_action('jojo_extend_update_'.$extend, false);
+		}
+	}
+}, 10, 2);
 
 wpjam_load('init', function(){
 	return JOJO_Extend::load();
