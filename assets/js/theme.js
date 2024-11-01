@@ -35,7 +35,7 @@
 
         $('#lang-form a').on('click', function(event) {
             if($(this).data('value')){
-                $('#wp_lang').val($(this).data('value'))
+                $('input[name=wp_lang]').val($(this).data('value'))
                 let form_el = $(this).closest('form')
                 $(form_el).submit()
             }
